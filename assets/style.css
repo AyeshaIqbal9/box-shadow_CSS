@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --color:red;
+    --br:brown;
+}
+.container{
+    background-color: pink;
+    border:solid var(--
+    color) 2px;
+    height:650px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+#head1{
+    text-shadow: 2px 3px 2px orangered,7px 7px 2px black;
+}
+.box{
+   
+    background-color: yellow;
+    width: 330px;
+    height: 330px;
+    border:solid var(--br) 1px;
+    overflow: hidden;
+    margin:5px;
+    padding:5px;
+    box-shadow: 20px 10px var(--color) ,30px 20px green ;
+
+}
